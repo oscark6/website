@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial,sans-serif;
+    box-sizing: border-box;
+}
+.background{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(hsl(0, 0%, 100%),rgba(0, 0, 0, 0.612)),url(images/background.png);
+    background-position: center;
+    background-size: cover;
+}
+.side_bar{
+    width: 250px;
+    height: 100vh;
+    background:rgba(128, 128, 128, 0.598);
+
+}
+.header-img{
+    width: 50px;
+    border-radius: 50px;
+    padding: 5px;
+}
+.my-app{
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    font-size: 2em;
+    cursor: pointer;
+}
+.side_nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+.side_nav ul{
+    list-style: none;
+}
+.side_nav ul a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    line-height: 70px;
+    font-size: 1.2em;
+}
+.side_nav li{
+    padding: 10px 90px;
+}
+.side_nav li:hover{
+    background-color: black;
+}
+.content-conten{
+    color: red;
+}
